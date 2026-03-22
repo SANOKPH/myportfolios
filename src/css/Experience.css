@@ -1,0 +1,125 @@
+.section {
+  padding: 60px 20px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.section-title {
+  font-size: 2rem;
+  margin-bottom: 40px;
+  font-weight: bold;
+}
+
+.experience-container {
+  position: relative;
+  padding-left: 20px;
+}
+
+/* The Vertical Line */
+.vertical-line {
+  position: absolute;
+  left: 45px; /* Adjust based on circle size */
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background-color: #e0e0e0;
+  z-index: 1;
+}
+
+.experience-list {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.experience-item {
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  z-index: 2;
+}
+
+/* The Colored Circles */
+.timeline-marker {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: bold;
+  font-size: 1.2rem;
+  flex-shrink: 0;
+  margin-right: 25px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.experience-content {
+  padding-top: 5px;
+}
+
+.experience-period {
+  font-size: 0.9rem;
+  color: #7f8c8d;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.experience-title {
+  font-size: 1.25rem;
+  margin: 0;
+  color: #2c3e50;
+}
+
+.role-text {
+  color: #34495e;
+  font-weight: 500;
+}
+
+.experience-location {
+  font-size: 0.95rem;
+  color: #95a5a6;
+  margin: 5px 0 15px 0;
+}
+
+/* Bullet Points Styling */
+.experience-description {
+  list-style-type: disc;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  margin: 0;
+}
+
+.experience-description li {
+  font-size: 1rem;
+  color: #576574;
+  line-height: 1.6;
+  margin-bottom: 8px;
+}
+/* ==================
+ */
+ /* Styling for the Image Icon */
+.timeline-icon-img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain; /* Ensures the logo isn't stretched */
+  border-radius: 50%;   /* Keeps the image circular */
+  padding: 5px;        /* Adds a little space around the logo inside the circle */
+}
+
+/* Adjust marker to handle images */
+.timeline-marker {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;    /* Clips the image to the circle */
+  flex-shrink: 0;
+  margin-right: 25px;
+  z-index: 2;
+  background-color: white; /* Recommended for logos with transparent backgrounds */
+}

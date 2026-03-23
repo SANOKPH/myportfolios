@@ -1,13 +1,13 @@
 const projects = [
   {
-    title: "Portfolio Website",
-    description: "Personal portfolio built with React",
+    title: "Todo App",
+    description: "Todo App using Vue 3",
     link: "https://portfolios-delta-eight.vercel.app/"
   },
   {
-    title: "Todo App",
-    description: "Todo app using Vue3",
-    link: "https://portfolios-delta-eight.vercel.app/product"
+    title: "Web Design Website",
+    description: "HTML CSS Bootstrap",
+    link: "https://web-design-nine-dun.vercel.app/index.html"
   }
 ];
 

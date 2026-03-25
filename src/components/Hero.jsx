@@ -62,7 +62,7 @@ const Hero = () => {
 
       {/* RIGHT */}
       <div className="hero-right">
-        <img src={myPhoto} alt="My Photo" className="hero-image" />
+        <img src={myPhoto} alt="sanok Full Stack Developer" className="hero-image" />
       </div>
 
     </section>

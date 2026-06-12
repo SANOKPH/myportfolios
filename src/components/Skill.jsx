@@ -1,9 +1,13 @@
 const skillsData = [
   { name: "React", level: "Advanced" },
   { name: "JavaScript", level: "Advanced" },
-  { name: "HTML & CSS", level: "Advanced" },
+  { name: "HTML5 & CSS3", level: "Advanced" },
   { name: "Tailwind CSS", level: "Intermediate" },
+  { name: "Vue.js", level: "Advanced" },
   { name: "Node.js", level: "Intermediate" },
+  {name: "PHP",level: "Advanced"},
+  {name: "Laravel",level: "Advanced"},
+  {name: "CodeIgniter4",level: "Advanced"},
 ];
 
 const Skills = () => {

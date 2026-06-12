@@ -1,13 +1,18 @@
 const projects = [
   {
-    title: "Portfolio Website",
-    description: "Personal portfolio built with React",
-    link: "https://portfolios-delta-eight.vercel.app/"
+    title: "Keno webiste",
+    description: "Build the webiste Game",
+    // link: "https://portfolios-delta-eight.vercel.app/"
   },
   {
-    title: "Todo App",
-    description: "Todo app using Vue3",
-    link: "https://portfolios-delta-eight.vercel.app/product"
+    title: "Lotto8888 Website",
+    description: "Build the Lotto8888 Website" ,
+    // link: "https://portfolios-delta-eight.vercel.app/product"
+  },
+  {
+    title: "Admin System",
+    description: "Join the team to build the Admin System" ,
+    // link: "https://portfolios-delta-eight.vercel.app/product"
   }
 ];
 
@@ -20,7 +25,7 @@ const Projects = () => {
           <div className="card" key={index}>
             <h3>{project.title}</h3>
             <p>{project.description}</p>
-            <a href={project.link}>View</a>
+            {/* <a href={project.link}>View</a> */}
           </div>
         ))}
       </div>

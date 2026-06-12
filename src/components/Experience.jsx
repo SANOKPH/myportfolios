@@ -2,39 +2,41 @@ import React from 'react';
 import "../css/Experience.css";
 
 // 1. Import your local images here
-import xemicolonLogo from '../Icons/javascript.png'; 
-import sambathLogo from '../Icons/laravel.png';
+import xemicolonLogo from '../Icons/Xemicolon.png'; 
+// import sambathLogo from '../Icons/laravel.png';
 import zinationLogo from '../Icons/Zination.png';
 
 const experienceData = [
   {
     company: "Xemicolon Technology",
     role: "Full Stack Developer",
-    period: "Jun 2025 - Present",
+    period: "2025 - Present",
     location: "Phnom Penh, Cambodia",
     icon: xemicolonLogo, 
     color: "#e74c3c", 
     description: [
-      "Developed responsive web applications using React and improved website performance by 30%.",
-      "E-commerce project: using CodeIgniter4, PHP, Javascript, VueJs.",
-      "Built the API for a mobile app and web using CodeIgniter4.",
-      "QA: Testing for projects, backend, frontend, and mobile app.",
-      "Joined the team to develop the Admin system using CodeIgniter4 framework."
-    ]
-  },
-  {
-    company: "SAMBATHYEUNG",
-    role: "Web Developer",
-    period: "Dec 2024 - May 2025",
-    location: "Phnom Penh, Cambodia",
-    icon: sambathLogo, 
-    color: "#3ce794", 
-    description: [
-      "Built the company’s portfolio and E-commerce websites.",
-      "Developed and optimized frontend interfaces, ensuring responsiveness across devices by 30%.",
-      "Admin system integrated with a REST API developed in C# and Vue.js.",
-      "Maintain and monitor websites to ensure smooth user experience and high availability.",
-      "Integrate backend APIs to handle logic and fix performance/compatibility issues."
+    <> 
+      Build and maintain RESTful APIs to integrate seamlessly with frontend
+      applications and third-party services. Developed customer-defined UI with
+      pixel-perfect layouts and consistent design across the application. Built
+      complex and deeply nested UI components with a strong focus on
+      reusability, maintainability, scalability, and performance optimization.
+      Assisted in feature enhancements and system updates while ensuring
+      backward compatibility across existing modules.
+      Maintained and enhanced e-commerce platforms by fixing bugs, refactoring
+      legacy code, and improving overall system stability and performance.
+      Developed responsive frontend interfaces optimized for desktop, tablet, and
+      mobile devices using JavaScript and Vue.js. Integrated frontend applications
+      with REST APIs developed in PHP CodeIgniter and JavaScript.
+      Designed and implemented API transactions including deposit, withdrawal,
+      wallet management, balance tracking, and transaction history features.
+      Developed and integrated RESTful APIs for blockchain-related operations
+      and digital wallet systems. Wrote optimized MySQL queries for retrieving,
+      inserting, updating, and deleting data while ensuring database performance
+      and data integrity. Collaborated with backend and frontend teams to deliver
+      secure, scalable, and efficient web applications.
+    </>
+     
     ]
   },
   {
@@ -57,6 +59,7 @@ const experienceData = [
       </>,
     ]
   },
+  
 ];
 
 const Experience = () => {

@@ -3,12 +3,17 @@ import myPhoto from "../Images/Profile.jpg";
 import "../css/Hero.css";
 
 const technologies = [
-  "React.js",
-  "Vue.js",
-  "Java Spring Boot",
+  "HTML5",
+  "CSS3",
+  "JavaScript",
+  "Node.JS",
+  "React.JS",
+  "Vue3","Vite",
+  "JAVA",
+  "C# (Windows Forms)",
   "PHP",
   "Laravel",
-  "CodeIgniter",
+  "CodeIgniter4",
 ];
 
 const Hero = () => {
